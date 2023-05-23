@@ -23,8 +23,8 @@ let package = Package(
             name: "ThemePackage",
             dependencies: [],
             resources: [
-                .process("Resources")
-//                .process("ThemeColors.xcassets")
+//                .process("Resources")
+                .process("ThemeColors.xcassets")
             ]),
         .testTarget(
             name: "ThemePackageTests",
